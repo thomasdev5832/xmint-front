@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# X-Ticket Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![X-Ticket](/src/assets/ticket-hand.jpg)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The X-Ticket is a web application built with React using TypeScript. This application, designed to provide a unique ticket purchasing experience for special events, encompasses various features and functionalities.
 
-### `npm start`
+**[x-ticket.vercel.app](https://x-ticket.vercel.app)**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ **[Back-end Project (Server)](https://github.com/thomasdev5832/xmint-server)**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### User Registration
 
-### `npm run build`
+Users can register for the platform by providing their email address.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Ticket Generation (X-Ticket)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Upon successful registration, users receive confirmation, and a wallet address is generated for them. The "Get X-Ticket" button allows users to generate a NFT (ticket) associated with their profile.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Upcoming Events
 
-### `npm run eject`
+The application features a section showcasing upcoming events, each accompanied by an image, title, and brief description. Additional event details can be accessed by clicking the "Learn more" button.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Airdrop
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Users are invited to participate in an exclusive airdrop, a loyalty rewards program designed to recognize and reward user loyalty.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## User Interaction and Feedback
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The application provides visual feedback to users throughout different stages, including success messages, error messages, and loading indicators. Interactive elements, such as buttons, allow users to copy wallet addresses and participate in the airdrop.
 
-## Learn More
+## Responsiveness
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The interface is designed to be responsive, ensuring a consistent and seamless user experience across devices of various sizes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Getting Started
+
+To get started with X-Ticket, follow these steps:
+
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Run the application with `npm start`.
+
+## Conclusion
+
+X-Ticket aims to redefine the ticket purchasing experience, not only providing entry to events but also offering exclusive benefits to enhance the overall user experience.
+
+## Author
+
+Made with ❤️ by [Gabriel Thome](https://github.com/thomasdev5832)
