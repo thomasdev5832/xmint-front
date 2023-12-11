@@ -6,7 +6,7 @@
 
 The X-Ticket is a web application built with React using TypeScript. This application, designed to provide a unique ticket purchasing experience for special events, encompasses various features and functionalities.
 
-<b><a href="x-ticket.vercel.app" target="_blank">x-ticket.vercel.app</a></b>
+<b><a href="https://x-ticket.vercel.app/" target="_blank">x-ticket.vercel.app</a></b>
 
 <b><a href="https://github.com/thomasdev5832/xmint-server" target="_blank">Back-end Project (Server)</a></b>
 
